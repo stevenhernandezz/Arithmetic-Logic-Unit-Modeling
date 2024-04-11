@@ -1,0 +1,36 @@
+Command: /home/users5/sah6489/526L/Lab10/./simv -l Lab10.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Nov 26 20:35 2023
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+                   0: ALU_OUT = xxxxxxxx, A = 01111111, B = 00000001, CF = x, OF = x, SF = x, ZF = x, EN = 1, OE = 1
+                   5: ALU_OUT = 10000000, A = 01111111, B = 00000001, CF = 0, OF = 1, SF = 1, ZF = 0, EN = 1, OE = 1
+                  40: ALU_OUT = 10000000, A = 11011010, B = 01100100, CF = 0, OF = 1, SF = 1, ZF = 0, EN = 1, OE = 1
+                  45: ALU_OUT = 01110110, A = 11011010, B = 01100100, CF = 0, OF = 0, SF = 0, ZF = 0, EN = 1, OE = 1
+                  80: ALU_OUT = 01110110, A = 10101010, B = 11001100, CF = 0, OF = 0, SF = 0, ZF = 0, EN = 1, OE = 1
+                  85: ALU_OUT = 10001000, A = 10101010, B = 11001100, CF = 0, OF = 0, SF = 1, ZF = 0, EN = 1, OE = 1
+                 120: ALU_OUT = 10001000, A = 11110000, B = 00111100, CF = 0, OF = 0, SF = 1, ZF = 0, EN = 1, OE = 1
+                 125: ALU_OUT = 11111100, A = 11110000, B = 00111100, CF = 0, OF = 0, SF = 1, ZF = 0, EN = 1, OE = 1
+                 160: ALU_OUT = 11111100, A = 01010101, B = 01010101, CF = 0, OF = 0, SF = 1, ZF = 0, EN = 1, OE = 1
+                 165: ALU_OUT = 00000000, A = 01010101, B = 01010101, CF = 0, OF = 0, SF = 0, ZF = 1, EN = 1, OE = 1
+                 200: ALU_OUT = 00000000, A = 10101010, B = 00000000, CF = 0, OF = 0, SF = 0, ZF = 1, EN = 1, OE = 1
+                 205: ALU_OUT = 01010101, A = 10101010, B = 00000000, CF = 0, OF = 0, SF = 0, ZF = 0, EN = 1, OE = 1
+ SIGNED TESTING
+                 240: ALU_OUT = 01010101, A = 01111111, B = 00000001, CF = 0, OF = 0, SF = 0, ZF = 0, EN = 1, OE = 1
+                 245: ALU_OUT = 10000000, A = 01111111, B = 00000001, CF = 0, OF = 1, SF = 1, ZF = 0, EN = 1, OE = 1
+                 280: ALU_OUT = 10000000, A = 01011010, B = 11011001, CF = 0, OF = 1, SF = 1, ZF = 0, EN = 1, OE = 1
+                 285: ALU_OUT = 10000001, A = 01011010, B = 11011001, CF = 1, OF = 0, SF = 1, ZF = 0, EN = 1, OE = 1
+                 320: ALU_OUT = 10000001, A = 11011011, B = 10101010, CF = 1, OF = 0, SF = 1, ZF = 0, EN = 1, OE = 1
+                 325: ALU_OUT = 10001010, A = 11011011, B = 10101010, CF = 0, OF = 0, SF = 1, ZF = 0, EN = 1, OE = 1
+                 360: ALU_OUT = 10001010, A = 00000000, B = 00000000, CF = 0, OF = 0, SF = 1, ZF = 0, EN = 1, OE = 1
+                 365: ALU_OUT = 00000000, A = 00000000, B = 00000000, CF = 0, OF = 0, SF = 0, ZF = 1, EN = 1, OE = 1
+                 400: ALU_OUT = 00000000, A = 11011011, B = 10101010, CF = 0, OF = 0, SF = 0, ZF = 1, EN = 1, OE = 1
+                 405: ALU_OUT = 01110001, A = 11011011, B = 10101010, CF = 0, OF = 0, SF = 0, ZF = 0, EN = 1, OE = 1
+                 445: ALU_OUT = 00100100, A = 11011011, B = 10101010, CF = 0, OF = 0, SF = 0, ZF = 0, EN = 1, OE = 1
+                 480: ALU_OUT = zzzzzzzz, A = 11011011, B = 10101010, CF = 0, OF = 0, SF = 0, ZF = 0, EN = 1, OE = 0
+$finish called from file "ALU_tb.sv", line 152.
+$finish at simulation time                 5400
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 540000 ps
+CPU Time:      0.190 seconds;       Data structure size:   0.0Mb
+Sun Nov 26 20:35:17 2023
