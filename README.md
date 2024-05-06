@@ -4,18 +4,18 @@
 ## Description 
  The ALU design is intended to support both unsigned and signed operations, providing functionality for arithmetic and boolean operations with associated flags.
  
- Flag Definitions
+ Flag Definitions:
  - Overflow Flag: Indicates when a signed operation result exceeds the ALU's capacity. It is updated during arithmetic (addition/subtraction) operations based on sign bit discrepancies.
  - Carry Flag: Reflects carry-out conditions during addition/subtraction, following Intel's definition for subtraction borrow.
  - Zero Flag: Set when the ALU output results in all zeros.
  - Negative Flag: Set when the ALU output's Most Significant Bit (MSB) is logic one.
    
-Operation Behavior
+Operation Behavior:
  - Overflow and Carry flags update based on arithmetic operations (addition/subtraction).
  - Boolean operations update Zero and Negative flags.
  - The ALU has an Output Enable (OE) input to control data output mode (high impedance when disabled).
    
-Design Implementation
+Design Implementation:
  - The ALU supports operations with both unsigned and signed numbers, with differences managed using conditional compilation (`ifdef).
    
 Implementation Approach:
